@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+a {
+    font-size: 20px;
+}
+
+.head {
+    height: 500px;
+    width: 98%;
+    background-color: rgb(249, 182, 249);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content {
+    margin: 5%
+}
+
+.title {
+    color: rgb(210, 115, 206);
+    font-size: 130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    float: left;
+    margin-left: 5%;
+}
+
+.subtitle {
+    color: rgb(210, 115, 206);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    float: left;
+    margin-left: 5%;
+}
+
+.head_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.time {
+    float: right;
+    margin-right: 5%;
+    height: 270px;
+    width: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    border-radius: 20%;
+    font-family: 'VT323', monospace;
+}
+
+.time>h1 {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.time>h2 {
+    font-weight: bold;
+}
+
+.tracker-gif {
+    height: 300px;
+    width: 300px;
+}
+
+.tracker {
+    height: 350px;
+    width: 98%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+
+.tracker-text {
+    color: dodgerblue;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.people-gif {
+    height: 300px;
+    width: 300px;
+}
+
+.people {
+    height: 350px;
+    width: 98%;
+    background-color: rgb(249, 182, 249);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+
+.people-text {
+    color: rgb(210, 115, 206);
+    font-size: 60px;
+    font-weight: 600;
+}
